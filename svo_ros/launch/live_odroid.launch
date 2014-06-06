@@ -1,6 +1,6 @@
 <launch>
     <node pkg="camera1394" type="camera1394_node" name="camera1394_node" >
-        <rosparam file="$(find ptam)/flymv.yaml" />
+        <rosparam file="$(find svo_ros)/param/flymv.yaml" />
     </node>
 
     <node pkg="svo_ros" type="vo" name="svo" clear_params="true" output="screen">
@@ -24,7 +24,6 @@
         <remap from="image" to="/svo/image" />
     </node>
     -->
-    <node name="svo_ros_rviz" pkg="rviz" type="rviz" args=" -d $(find svo_ros)/rviz_config.rviz" />
 
     
 </launch>
