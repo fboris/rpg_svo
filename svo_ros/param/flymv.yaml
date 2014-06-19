@@ -1,4 +1,4 @@
-{auto_brightness: 2, auto_exposure: 2, auto_focus: 5, auto_gain: 2, auto_gamma: 0,
+{auto_brightness: 2, auto_exposure: 3, auto_focus: 5, auto_gain: 2, auto_gamma: 0,
   auto_hue: 5, auto_iris: 5, auto_saturation: 5, auto_sharpness: 5, auto_shutter: 3,
   auto_white_balance: 5, auto_zoom: 5, bayer_method: '', bayer_pattern: '', binning_x: 0,
   binning_y: 0, brightness: 176.0, camera_info_url: '', exposure: 0.0, focus: 0.0,
